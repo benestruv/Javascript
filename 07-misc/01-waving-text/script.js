@@ -16,10 +16,10 @@ avec un "effet vague" d'au moins 5 tailles différentes.
         document.getElementById('target').style.fontSize = "55px",
     ] 
 
-    for (j = 0; j < sizes.length; j++){
-        {
-            if(wave[i] != " ") myText += '<span style="font-size:' + textSize[i % 9] + 'px;">' + wave[i] + '</span>';
-            else myText += " ";
+    var letters = phrase.split('');
+
+    for (i = 0; i < phrase.length; i++){
+        phrase[i] = changeSize;
     }
 
     
